@@ -1,110 +1,161 @@
-#title{
+#title {
   background-color: #ff4c68;
 }
 
-.container-fluid{
-  padding:3% 15%;
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
-
-.navbar{
-  padding:0 0 4.5rem 0;
+.navbar {
+  padding: 0 0 4.5rem 0;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 18px;
   font-size: 1.2rem;
   font-weight: 400;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 /* Rotate */
-
 .rotate25 {
-    -webkit-transform: rotate(25deg);
-    -moz-transform: rotate(25deg);
-    -o-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight:900;
+  font-weight: 900;
   font-size: 3.5rem;
-  color:white;
+  color: white;
   line-height: 1.5;
 }
 
-
 /* Download Buttons */
-
-.download-btn{
-  margin:5% 3% 5% 0;
+.download-btn {
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
-.title-img{
-  width:60%;
+.title-img {
+  width: 60%;
+  position: absolute;
+  right: 30%
 }
 
 /* Features */
-#features{
-  padding:10% 15%;
+#features {
+  padding: 10% 15%;
+  position: relative;
   text-align: center;
-  color:#8f8f8f;
+  background-color: #fff;
+  color: #8f8f8f;
+  z-index: 1;
 }
 
-
-.fac{
-  color:#ef8172;
+.fac {
+  color: #ef8172;
   font-size: 4rem;
   margin-bottom: 1.5rem;
 }
 
-.fac:hover{
-  color:#ff4c68;
+.fac:hover {
+  color: #ff4c68;
 }
 
-h3{
-  color:#000;
-  font-weight:900;
+h3 {
+  color: #000;
+  font-weight: 900;
   font-size: 1.5rem;
 }
 
 /* Testimonials Section */
-
-#testimonials{
-  padding:7% 15%;
+#testimonials {
   text-align: center;
   background-color: #ef8172;
-  color:#fff;
+  color: #fff;
 }
 
-h2{
-  font-weight:900;
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.testimonial-image{
-  width:10%;
+.testimonial-image {
+  width: 10%;
   border-radius: 100%;
-  margin:20px;
+  margin: 20px;
 }
 
-#press{
-  text-align:center;
-  background-color:#ef8172;
-  padding-bottom:3%;
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
-.press-logo{
-  width:15%;
-  margin:20px 20px 50px;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position:static;
+    transform: rotate(0deg);
+  }
+}
+
+/* Call To Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:7% 15% 4%;
+}
+
+.call{
+  font-weight: 900;
+  color:#fff;
+  font-size: 3.5rem;
+}
+
+/* Footer */
+
+#footer{
+  padding:7% 15%;
+  background-color:#fff;
+  text-align: center;
+}
+
+.f-icon{
+  margin:3%;
 }
